@@ -5,12 +5,8 @@ using namespace std;
 
 int main()
 {
-    string name;
-    string surname;
-    float salary;
-    float sale;
-    float comper;
-    float total;
+    string name, surname;
+    float salary, sale, comper, total;
 
     cout << "****Homework 2************" << endl;
     cout << "Enter Name   : ";
