@@ -37,7 +37,7 @@ int main()
 
 		//Display the result
 		result = (total >= 50) ? "PASS" : "FAIL";
-		cout << result << endl;
+		cout << "You score is" <<result << endl;
 
 	return 0;
 }
