@@ -1,10 +1,12 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
     //Score Chacker Program
 
 	float q1, q2, q3, mid, final, qScore, total;
+	string result;
 
 
 		cout << "===========QUIZZES===============" << endl;
@@ -33,11 +35,9 @@ int main()
 		total = mid + final + qScore;
 		cout << "Total : " << total << endl;
 
-		if (total >= 50){
-			cout << "You score is PASS" << endl;
-		} else {
-			cout << "You score is NOT PASSED" << endl;
-		}
+		//Display the result
+		result = (total >= 50) ? "PASS" : "FAIL";
+		cout << result << endl;
 
 	return 0;
 }
