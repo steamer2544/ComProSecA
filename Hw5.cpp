@@ -35,7 +35,7 @@ int main()
 		total = mid + final + qScore;
 		cout << "Total : " << total << endl;
 
-		//Display the result
+		//Display the result                 
 		result = (total >= 50) ? "PASS" : "FAIL";
 		cout << "You score is" <<result << endl;
 
